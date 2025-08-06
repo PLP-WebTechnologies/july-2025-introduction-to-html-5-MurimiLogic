@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO-friendly metadata -->
+    <meta name="description" content="Portfolio of Murimi - My journey in technology, skills, projects, and experience.">
+    <title>Murimi | Tech Portfolio</title>
+</head>
+<body>
+    <!-- Semantic header with navigation and logical heading hierarchy -->
+    <header role="banner">
+        <h1>Murimi - My Tech Journey</h1> <!-- Main heading (h1) -->
+        <nav aria-label="Main navigation"> <!-- Accessible navigation landmark -->
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>           <!-- All are navigatable with a TAB key -->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="main-content" role="main">
+        <!-- About section with heading -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2> <!-- h2 for section heading -->
+            <p>Hello! I'm Murimi, a passionate technologist with a love for building accessible and impactful digital solutions. 
+                My journey in tech began with curiosity and has grown into a career focused on continuous learning and innovation.</p>
+        </section>
+
+        <!-- Skills section with semantic list  -->
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+            <ul>
+                <li>HTML5 &amp; Semantic Web</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Version Control (Git)</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+
+        <!-- Projects section with articles and logical heading order -->
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+            <article aria-labelledby="project1-title">
+                <h3 id="project1-title">Portfolio Website</h3> <!-- h3 for project title -->
+                <p>A personal website (via Power Learn Project Africa) built with semantic HTML5,
+                     focusing on accessibility and SEO.
+                     Designed to be usable by everyone and easy to find on search engines.</p>
+            </article>
+            <article aria-labelledby="project2-title">
+                <h3 id="project2-title">Open Source Contributions</h3>
+                <p>Contributed to open source projects that improve web accessibility and developer tools for the community.</p>
+            </article>
+        </section>
+
+        <!-- Experience section with semantic list use of ARIA -->
+        <section id="experience" aria-labelledby="experience-heading">
+            <h2 id="experience-heading">Experience</h2>
+            <ul>
+                <li>Web Developer at PLP Africa(July 2025)</li>
+                <li>Freelance Frontend Developer (Present)</li>
+            </ul>
+        </section>
+
+        <!-- Contact section with address element for accessibility and navigatable with tab key -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <address>
+                <p>Email: <a href="mailto:eliasmurimikenya@gmail.com">eliasmurimikenya@gmail.com</a></p>
+                <p>Github: <a href="https://github.com/MurimiLogic">MurimiLogic</a></p>
+            </address>
+        </section>
+    </main>
+
+    <!-- Semantic footer with contentinfo role -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 Murimi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
